@@ -1,0 +1,3 @@
+LIBRARY "ez_sfse_plugin_example"
+EXPORTS
+SFSEPlugin_Load
