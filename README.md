@@ -27,6 +27,7 @@ All necessary projects have been migrated to and built with **Visual Studio 2022
 > [!IMPORTANT]  
 > Currently there does not seem to be a way to create a new function that interfaces with the game using a script. The listener can be used though to execute functions when certain events are detected.
 
+
   
 [Back to top](#sfse-plugins)  
   
