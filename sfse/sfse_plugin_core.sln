@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfse", "sfse\sfse.vcxproj", "{1A9A4653-AB81-4570-988C-E654F66E4470}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfse_common", "sfse_common\sfse_common.vcxproj", "{6B982806-A0E9-41A1-8B38-37AD3A06048E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9A4653-AB81-4570-988C-E654F66E4470}.Debug|x64.ActiveCfg = Debug|x64
+		{1A9A4653-AB81-4570-988C-E654F66E4470}.Debug|x64.Build.0 = Debug|x64
+		{1A9A4653-AB81-4570-988C-E654F66E4470}.Release|x64.ActiveCfg = Release|x64
+		{1A9A4653-AB81-4570-988C-E654F66E4470}.Release|x64.Build.0 = Release|x64
+		{6B982806-A0E9-41A1-8B38-37AD3A06048E}.Debug|x64.ActiveCfg = Debug|x64
+		{6B982806-A0E9-41A1-8B38-37AD3A06048E}.Debug|x64.Build.0 = Debug|x64
+		{6B982806-A0E9-41A1-8B38-37AD3A06048E}.Release|x64.ActiveCfg = Release|x64
+		{6B982806-A0E9-41A1-8B38-37AD3A06048E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

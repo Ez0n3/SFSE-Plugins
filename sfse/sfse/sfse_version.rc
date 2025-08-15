@@ -1,4 +1,4 @@
-#include "sfse_common/sfse_version.h"
+#include "../sfse_common/sfse_version.h" // Changed for VS2020
 
 1 VERSIONINFO
  FILEVERSION 0,SFSE_VERSION_INTEGER,SFSE_VERSION_INTEGER_MINOR,SFSE_VERSION_INTEGER_BETA
