@@ -8,18 +8,20 @@
   
 ## Description:  
   
-Updated: **August 15, 2025**  
+Updated: **August 18, 2025**  
   
 This repo contains Plugins for Starfield - SFSE, including a Plugin Example (**Status: Untested**).  
   
-**SFSE** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Starfield** for mod authors.  
-The original SDK used for building the SFSE EXE can be found here: [SFSE](https://sfse.silverlock.org/) [SFSE Repo](https://github.com/ianpatt/sfse)  
-Using SFSE in your mod will then make SFSE a **Dependency** which you must must inform your users of and provide a link to.  
+ * **SFSE** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Starfield** for mod authors.  
+ * The original SDK used for building the SFSE EXE can be found here: [SFSE](https://sfse.silverlock.org/) [SFSE Repo](https://github.com/ianpatt/sfse)  
+ * Using SFSE in your mod will then make SFSE a **Dependency** which you must must inform your users of and provide a link to ([SFSE](https://www.nexusmods.com/starfield/mods/106)).  
   
 This mirror of the SDK is currently set to support Starfield runtime version: **1.15.216.0** - SFSE version: **0.0.2.17**, other versions will need to be manually configured.  
 It has also been pre-configured to build **Plugins** and is not intended for building the full EXE (Core and Loader).  
   
-All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)   
+All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)  
+  
+The highest version of VS officially supported before it was abandoned for CMake, is Visual Studio 2019 (v142). Building Plugins with v143 is **experimental**, but functioning.  
   
 > [!IMPORTANT]  
 > The Ez Plugin Example has not been tested yet, but it should work.
